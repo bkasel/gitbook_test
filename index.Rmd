@@ -1,0 +1,23 @@
+--- 
+title: "Kinematik und Dynamik"
+author: "Kasel Ben"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Kinematik und Dynamik Kurs der ursprünglich von der Openstax auf Englisch entwickelt wurde @wolfe_college_2015."
+---
+
+# Vorwort
+
+Dieses Kapitel basiert auf der Arbeit von Openstax @wolfe_college_2015  und wurde von Ben Kasel übersetzt und an das luxemburgische Schulsystem angepasst.
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
