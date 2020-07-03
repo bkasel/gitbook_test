@@ -1,0 +1,34 @@
+Einleitung
+---------
+
+
+![Die Bewegung eines Falken durch die Luft kann mit der Position, Geschwindigkeit und Beschleunigung des Vogels beschrieben werden. Bewegt er sich geradlinig, spricht man von einer ein-dimensionalen Bewegung. (credit: Vince Maidens, Wikimedia
+Commons)](images/Figure_02_00_01_D.jpg){#import-auto-id2758213}
+
+Wo man auch hinsieht, beobachtet man Körper in Bewegung, von einem Tennismatch zum Vorbeiflug einer Raumsonde am Neptun. Selbst wenn man ruhig sitzt, bewegt das Herz Blut durch unsere Blutgefässe und jedes einzelne Atom und Molekül vibriert und bewegt sich kontinuierlich. Welche Fragen könnte man sich zu Bewegungen stellen? *Wann wird eine bestimmte Raumsonde den Mars erreichen? Wie fliegt ein Fussball wenn er in einem bestimmten Winkel getreten wird?* 
+
+Die Analyse von Bewegungen liefert uns nicht nur Antworten auf diese Fragen, sondern bildet  auch die Grundlage für weiterführende Konzepte in der Physik. So kann man *Kräfte* nur schwer begreifen wenn man das Konzept der *Beschleunigung* nicht versteht. Diese Verbindung zwischen Kräften und Beschleunigung ist nötig um die *Grundidee 3* zu verstehen.
+
+Um Bewegungen quantitativ zu beschreibungen, wird in dieser Einheit das Thema des *Bezugsystems* behandelt. Wenn Sie bereits von einer Freundin am Bahnhofsteig verabschiedet haben, verstehen Sie diese Idee bestimmt. Sie sehen wie Ihre Freundin sich von Ihnen entfernt, obwohl sie sich für die anderen Passagiere im Ruhezustand befindet. Das Bezugsystem beeinflusst die Beobachtung und dieser Zusammenhang muss für ein grundlegendes Verständnis von 3.A und Essential Knowledge 3.A.1. klar sein.
+
+Das formale Studium der Physik beginnt mit der **Kinematik** die als  *Lehre der Bewegung ohne deren Ursachen* definiert ist. Man untersucht also zum Beispiel die ein- oder zwei-dimensionale Bewegung eines Fussballs ohne sich zu Fragen welche Kräfte die Bewegung verursacht haben. In diesem Kapitel beschränken wir uns auf die einfachsten Bewegungen, solche die eindimensional oder geradlinig sind. Die gelernten Konzepte wenden wir dann im nächsten Kapitel auf Bewegungen mit kurvenförmigen Bahnkurven oder zweidimensionale Bewegungen an, zum Beispiel ein Auto in einer Kurve.
+
+
+
+Der Inhalt dieses Kapitels unterstützt
+
+**Grundidee 3** Wechselwirkungen zwischen Körpern können mit Kräften beschrieben werden.
+
+*dauerhaftes Verständnis 3.A* Beobachter in Inertialsystemen sind sich einig über die Charakteristiken von Kräften.
+
+*Essential Knowledge 3.A.1* Ein Beobachter in einem bestimmten Bezugsystem kann die Bewegung eines Körpers andhand der Grössen Position, Positionsänderung, Strecke, Geschwindigkeit (Vektor oder Betrag) und Beschleunigung beschreiben.
+
+::: {#concept-trailer-1d-kinematics data-type="media" data-alt="OpenStax Concept Trailer for One-Dimensional Kinematics"}
+```{=html}
+<iframe src="https://www.youtube.com/embed/bkbG8BJsInE" height="315" width="560">
+```
+`<!-- no-selfclose -->`{=html}
+```{=html}
+</iframe>
+```
+:::

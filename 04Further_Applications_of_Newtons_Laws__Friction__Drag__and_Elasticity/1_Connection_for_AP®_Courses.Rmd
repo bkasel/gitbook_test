@@ -1,0 +1,97 @@
+Connection for AP® Courses
+--------------------------
+
+`<cnx-pi data-type="cnx.flag.introduction">`{=html}
+class=\"introduction\" `</cnx-pi>`{=html}
+`<cnx-pi data-type="cnx.eoc">`{=html}class=\"section-summary\"
+title=\"Section Summary\"`</cnx-pi>`{=html}
+`<cnx-pi data-type="cnx.eoc">`{=html}class=\"conceptual-questions\"
+title=\"Conceptual Questions\"`</cnx-pi>`{=html}
+`<cnx-pi data-type="cnx.eoc">`{=html}class=\"problems-exercises\"
+title=\"Problems & Exercises\"`</cnx-pi>`{=html}
+`<cnx-pi data-type="cnx.eoc">`{=html}class=\"ap-test-prep\" title=\"Test
+Prep for AP Courses\"`</cnx-pi>`{=html}
+
+![Total hip replacement surgery has become a common procedure. The head
+(or ball) of the patient\'s femur fits into a cup that has a hard
+plastic-like inner lining. (credit: National Institutes of Health, via
+Wikimedia
+Commons)](images/Figure_06_00_01.jpg){#import-auto-id1165298796781}
+
+`<!--
+Chapter Outline
+5.1.    Friction
+5.2.    Drag Forces
+5.3.    Elasticity: Stress and Strain
+-->`{=html}
+
+Have you ever wondered why it is difficult to walk on a smooth surface
+like ice? The interaction between you and the surface is a result of
+forces that affect your motion. In the previous chapter, you learned
+Newton\'s laws of motion and examined how net force affects the motion,
+position and shape of an object. Now we will look at some interesting
+and common forces that will provide further applications of Newton\'s
+laws of motion.
+
+The information presented in this chapter supports learning objectives
+covered under Big Idea 3 of the AP Physics Curriculum Framework, which
+refer to the nature of forces and their roles in interactions among
+objects. The chapter discusses examples of specific contact forces, such
+as friction, air or liquid drag, and elasticity that may affect the
+motion or shape of an object. It also discusses the nature of forces on
+both macroscopic and microscopic levels (Enduring Understanding 3.C and
+Essential Knowledge 3.C.4). In addition, Newton\'s laws are applied to
+describe the motion of an object (Enduring Understanding 3.B) and to
+examine relationships between contact forces and other forces exerted on
+an object (Enduring Understanding 3.A, 3.A.3 and Essential Knowledge
+3.A.4). The examples in this chapter give you practice in using vector
+properties of forces (Essential Knowledge 3.A.2) and free-body diagrams
+(Essential Knowledge 3.B.2) to determine net force (Essential Knowledge
+3.B.1).
+
+**Big Idea 3** The interactions of an object with other objects can be
+described by forces.
+
+Enduring Understanding 3.A All forces share certain common
+characteristics when considered by observers in inertial reference
+frames.
+
+Essential Knowledge 3.A.2 Forces are described by vectors.
+
+Essential Knowledge 3.A.3 A force exerted on an object is always due to
+the interaction of that object with another object.
+
+Essential Knowledge 3.A.4 If one object exerts a force on a second
+object, the second object always exerts a force of equal magnitude on
+the ﬁrst object in the opposite direction.
+
+Enduring Understanding 3.B Classically, the acceleration of an object
+interacting with other objects can be predicted by using
+$\overset{\rightarrow}{a} = \frac{\sum\overset{\rightarrow}{F}}{m}$ .
+
+Essential Knowledge 3.B.1 If an object of interest interacts with
+several other objects, the net force is the vector sum of the individual
+forces.
+
+Essential Knowledge 3.B.2 Free-body diagrams are useful tools for
+visualizing forces being exerted on a single object and writing the
+equations that represent a physical situation.
+
+Enduring Understanding 3.C At the macroscopic level, forces can be
+categorized as either long-range (action-at-a-distance) forces or
+contact forces.
+
+Essential Knowledge 3.C.4 Contact forces result from the interaction of
+one object touching another object, and they arise from interatomic
+electric forces. These forces include tension, friction, normal, spring
+(Physics 1), and buoyant (Physics 2).
+
+::: {#concept-trailer-terminal-velocity data-type="media" data-alt="OpenStax Concept Trailer for Terminal Velocity"}
+```{=html}
+<iframe src="https://www.youtube.com/embed/kbZGcfF9UfA" height="315" width="560">
+```
+`<!-- no-selfclose -->`{=html}
+```{=html}
+</iframe>
+```
+:::

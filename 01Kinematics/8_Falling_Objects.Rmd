@@ -1,0 +1,962 @@
+Falling Objects
+---------------
+
+::: {#fs-id3275688 .learning-objectives depth="1"}
+### Learning Objectives { data-type="title"}
+
+By the end of this section, you will be able to:
+
+-   Describe the effects of gravity on objects in motion.
+-   Describe the motion of objects that are in free fall.
+-   Calculate the position and velocity of objects in free fall.
+
+The information presented in this section supports the following AP®
+learning objectives and science practices:
+
+-   **3.A.1.1** The student is able to express the motion of an object
+    using narrative, mathematical, or graphical representations. **(S.P.
+    1.5, 2.1, 2.2)**
+-   **3.A.1.2** The student is able to design an experimental
+    investigation of the motion of an object. **(S.P. 4.2)**
+-   **3.A.1.3** The student is able to analyze experimental data
+    describing the motion of an object and is able to express the
+    results of the analysis using narrative, mathematical, and graphical
+    representations. **(S.P. 5.1)**
+:::
+
+Falling objects form an interesting class of motion problems. For
+example, we can estimate the depth of a vertical mine shaft by dropping
+a rock into it and listening for the rock to hit the bottom. By applying
+the kinematics developed so far to falling objects, we can examine some
+interesting situations and learn much about gravity in the process.
+
+::: {#fs-id4178141 depth="1"}
+### Gravity {#gravity data-type="title"}
+
+The most remarkable and unexpected fact about falling objects is that,
+if air resistance and friction are negligible, then in a given location
+all objects fall toward the center of Earth with the *same constant
+acceleration*, *independent of their mass*. This experimentally
+determined fact is unexpected, because we are so accustomed to the
+effects of air resistance and friction that we expect light objects to
+fall slower than heavy ones.
+
+![A hammer and a feather will fall with the same constant acceleration
+if air resistance is considered negligible. This is a general
+characteristic of gravity not unique to Earth, as astronaut David R.
+Scott demonstrated on the Moon in 1971, where the acceleration due to
+gravity is only
+${1\text{.}\text{67\ m/s}^{2}}{}$.](images/Figure_02_07_00a.jpg){#import-auto-id4126662}
+
+In the real world, air resistance can cause a lighter object to fall
+slower than a heavier object of the same size. A tennis ball will reach
+the ground after a hard baseball dropped at the same time. (It might be
+difficult to observe the difference if the height is not large.) Air
+resistance opposes the motion of an object through the air, while
+friction between objects---such as between clothes and a laundry chute
+or between a stone and a pool into which it is dropped---also opposes
+motion between them. For the ideal situations of these first few
+chapters, an object *falling without air resistance or friction* is
+defined to be in [free-fall]{#import-auto-id1714641 data-type="term"}.
+
+The force of gravity causes objects to fall toward the center of Earth.
+The acceleration of free-falling objects is therefore called the
+[acceleration due to gravity]{#import-auto-id1707599 data-type="term"}.
+The acceleration due to gravity is *constant*, which means we can apply
+the kinematics equations to any falling object where air resistance and
+friction are negligible. This opens a broad class of interesting
+situations to us. The acceleration due to gravity is so important that
+its magnitude is given its own symbol, $g{}$. It is constant at any
+given location on Earth and has the average value
+
+::: {#eip-636 data-type="equation"}
+$${{g = 9}\text{.}\text{80\ m/s}^{2}}\text{.}{}$$
+:::
+
+Although $g{}$ varies from ${9\text{.}\text{78\ m/s}^{2}}{}$ to
+${9\text{.}\text{83\ m/s}^{2}}{}$, depending on latitude, altitude,
+underlying geological formations, and local topography, the average
+value of ${9\text{.}\text{80\ m/s}^{2}}{}$ will be used in this text
+unless otherwise specified. The direction of the acceleration due to
+gravity is *downward (towards the center of Earth)*. In fact, its
+direction *defines* what we call vertical. Note that whether the
+acceleration $a{}$ in the kinematic equations has the value ${+ g}{}$ or
+${- g}{}$ depends on how we define our coordinate system. If we define
+the upward direction as positive, then
+${{{a = {- g}} = {- 9}}\text{.}\text{80\ m/s}^{2}}{}$, and if we define
+the downward direction as positive, then
+${{{a = g} = 9}\text{.}\text{80\ m/s}^{2}}{}$.
+:::
+
+::: {#fs-id2854808 depth="1"}
+### One-Dimensional Motion Involving Gravity {#one-dimensional-motion-involving-gravity data-type="title"}
+
+The best way to see the basic features of motion involving gravity is to
+start with the simplest situations and then progress toward more complex
+ones. So we start by considering straight up and down motion with no air
+resistance or friction. These assumptions mean that the velocity (if
+there is any) is vertical. If the object is dropped, we know the initial
+velocity is zero. Once the object has left contact with whatever held or
+threw it, the object is in free-fall. Under these circumstances, the
+motion is one-dimensional and has constant acceleration of magnitude
+$g{}$. We will also represent vertical displacement with the symbol
+$y{}$ and use $x{}$ for horizontal displacement.
+
+::: {#fs-id1931991 .note data-type="note" has-label="true" data-label=""}
+::: {data-type="title"}
+Kinematic Equations for Objects in Free-Fall where Acceleration = -*g*
+:::
+
+::: {#import-auto-id2222965 data-type="equation"}
+$${v = {v_{0} - \text{gt}}}{}$$
+:::
+
+::: {#import-auto-id4048491 data-type="equation"}
+$${{y = {y_{0} + v_{0}}}{t - \frac{1}{2}}\text{gt}^{2}}{}$$
+:::
+
+::: {#import-auto-id4019890 data-type="equation"}
+$${{v^{2} = {v_{0}^{2} - 2g}}\left( {y - y_{0}} \right)}{}$$
+:::
+:::
+
+::: {#fs-id4067058 data-type="example"}
+::: {data-type="title"}
+Calculating Position and Velocity of a Falling Object: A Rock Thrown
+Upward
+:::
+
+A person standing on the edge of a high cliff throws a rock straight up
+with an initial velocity of 13.0 m/s. The rock misses the edge of the
+cliff as it falls back to Earth. Calculate the position and velocity of
+the rock 1.00 s, 2.00 s, and 3.00 s after it is thrown, neglecting the
+effects of air resistance.
+
+::: {.tinysection}
+[Strategy]{data-type="title"}
+:::
+
+Draw a sketch.
+
+![](images/Figure_02_07_00b.jpg){#import-auto-id2188586}
+
+We are asked to determine the position $y{}$ at various times. It is
+reasonable to take the initial position $y_{0}{}$ to be zero. This
+problem involves one-dimensional motion in the vertical direction. We
+use plus and minus signs to indicate direction, with up being positive
+and down negative. Since up is positive, and the rock is thrown upward,
+the initial velocity must be positive too. The acceleration due to
+gravity is downward, so $a{}$ is negative. It is crucial that the
+initial velocity and the acceleration due to gravity have opposite
+signs. Opposite signs indicate that the acceleration due to gravity
+opposes the initial motion and will slow and eventually reverse it.
+
+Since we are asked for values of position and velocity at three times,
+we will refer to these as $y_{1}{}$ and $v_{1}{}$; *$y_{2}{}$* and
+$v_{2}{}$; and $y_{3}{}$ and $v_{3}{}$.
+
+**Solution for Position** $y_{1}{}$
+
+1\. Identify the knowns. We know that ${y_{0} = 0}{}$;
+${{v_{0} = \text{13}}\text{.}\text{0\ m/s}}{}$;
+${{{a = {- g}} = {- 9}}\text{.}\text{80\ m/s}^{2}}{}$; and
+${{t = 1}\text{.}\text{00\ s}}{}$.
+
+2\. Identify the best equation to use. We will use
+${{y = {y_{0} + v_{0}}}{t + \frac{1}{2}}\text{at}^{2}}{}$ because it
+includes only one unknown, $y{}$ (or $y_{1}{}$,
+here),*`<!-- no-selfclose -->`{=html}* which is the value we want to
+find.
+
+3\. Plug in the known values and solve for $y_{1}{}$.
+
+::: {#import-auto-id2302522 data-type="equation"}
+[ y 1 = 0 + 13 . 0 m/s 1 . 00 s + 1 2 − 9 . 80 m/s 2 1 . 00 s 2 = 8 . 10
+m y 1 = 0 + 13 . 0 m/s 1 . 00 s + 1 2 − 9 . 80 m/s 2 1 . 00 s 2 = 8 . 10
+m size 12{y\"\" lSub { size 8{1} } =0+ left (\"13\" \".\" \"0 m/s\"
+right ) left (1 \".\" \"00 s\" right )+ { {1} over {2} } left ( - 9
+\".\" \"80\"\" m/s\" rSup { size 8{2} } right ) left (1 \".\" \"00 s\"
+right ) rSup { size 8{2} } =8 \".\" \"10\"\`m} {} ]{.math
+xmlns="http://www.w3.org/1998/Math/MathML" display="block"}
+:::
+
+::: {.tinysection}
+[Discussion]{data-type="title"}
+:::
+
+The rock is 8.10 m above its starting point at
+${{t = 1}\text{.}\text{00}}{}$ s, since ${y_{1} > y_{0}}{}$. It could be
+*moving* up or down; the only way to tell is to calculate $v_{1}{}$ and
+find out if it is positive or negative.
+
+**Solution for Velocity** $v_{1}{}$
+
+1\. Identify the knowns. We know that ${y_{0} = 0}{}$;
+${{v_{0} = \text{13}}\text{.}\text{0\ m/s}}{}$;
+${{{a = {- g}} = {- 9}}\text{.}\text{80\ m/s}^{2}}{}$; and
+${{t = 1}\text{.}\text{00\ s}}{}$. We also know from the solution above
+that ${{y_{1} = 8}\text{.}\text{10\ m}}{}$.
+
+2\. Identify the best equation to use. The most straightforward is
+${v = {v_{0} - \text{gt}}}{}$ (from ${v = {v_{0} + \text{at}}}{}$, where
+${{a = \text{gravitational\ acceleration}} = {- g}}{}$).
+
+3\. Plug in the knowns and solve.
+
+::: {#import-auto-id1688803 data-type="equation"}
+$${{{v_{1} = {v_{0} - \text{gt}}} = \text{13}}\text{.}{\text{0\ m/s} - \left( {9\text{.}\text{80\ m/s}^{2}} \right)}{\left( {1\text{.}\text{00\ s}} \right) = 3}\text{.}\text{20\ m/s}}{}$$
+:::
+
+::: {.tinysection}
+[Discussion]{data-type="title"}
+:::
+
+The positive value for $v_{1}{}$ means that the rock is still heading
+upward at ${{t = 1}\text{.}\text{00}\ \text{s}}{}$. However, it has
+slowed from its original 13.0*`<!-- no-selfclose -->`{=html}* m/s, as
+expected.
+
+**Solution for Remaining Times**
+
+The procedures for calculating the position and velocity at
+${{t = 2}\text{.}\text{00}\ \text{s}}{}$ and ${3\text{.}\text{00\ s}}{}$
+are the same as those above. The results are summarized in
+[link](#eip-304){.autogenerated-content} and illustrated in
+[link](#import-auto-id4064055){.autogenerated-content}.
+
+  Time, *t*                     Position, *y*                     Velocity, *v*                              Acceleration, *a*
+  ----------------------------- --------------------------------- ------------------------------------------ ---------------------------------------
+  ${1\text{.}\text{00\ s}}{}$   ${8\text{.}\text{10\ m}}{}$       ${3\text{.}\text{20\ m/s}}{}$              ${{- 9}\text{.}\text{80\ m/s}^{2}}{}$
+  ${2\text{.}\text{00\ s}}{}$   ${6\text{.}\text{40\ m}}{}$       ${{- 6}\text{.}\text{60\ m/s}}{}$          ${{- 9}\text{.}\text{80\ m/s}^{2}}{}$
+  ${3\text{.}\text{00\ s}}{}$   ${{- 5}\text{.}\text{10\ m}}{}$   ${{- \text{16}}\text{.}\text{4\ m/s}}{}$   ${{- 9}\text{.}\text{80\ m/s}^{2}}{}$
+
+  : [Results]{data-type="title"}
+
+Graphing the data helps us understand it more clearly.
+
+![Vertical position, vertical velocity, and vertical acceleration vs.
+time for a rock thrown vertically up at the edge of a cliff. Notice that
+velocity changes linearly with time and that acceleration is constant.
+*Misconception Alert!* Notice that the position vs. time graph shows
+vertical position only. It is easy to get the impression that the graph
+shows some horizontal motion---the shape of the graph looks like the
+path of a projectile. But this is not the case; the horizontal axis is
+*time*, not space. The actual path of the rock in space is straight up,
+and straight down.](images/Figure_02_06_01.jpg){#import-auto-id4064055}
+
+::: {.tinysection}
+[Discussion]{data-type="title"}
+:::
+
+The interpretation of these results is important. At 1.00 s the rock is
+above its starting point and heading upward, since $y_{1}{}$ and
+$v_{1}{}$ are both positive. At 2.00 s, the rock is still above its
+starting point, but the negative velocity means it is moving downward.
+At 3.00 s, both $y_{3}{}$ and $v_{3}{}$ are negative, meaning the rock
+is below its starting point and continuing to move downward. Notice that
+when the rock is at its highest point (at 1.5 s), its velocity is zero,
+but its acceleration is still ${{- 9}\text{.}\text{80\ m/s}^{2}}{}$. Its
+acceleration is
+${{- 9}\text{.}\text{80\ m/s}^{2}}{}$^`<!-- no-selfclose -->`{=html}^
+for the whole trip---while it is moving up and while it is moving down.
+Note that the values for $y{}$*`<!-- no-selfclose -->`{=html}* are the
+positions (or displacements) of the rock, not the total distances
+traveled. Finally, note that free-fall applies to upward motion as well
+as downward. Both have the same acceleration---the acceleration due to
+gravity, which remains constant the entire time. Astronauts training in
+the famous Vomit Comet, for example, experience free-fall while arcing
+up as well as down, as we will discuss in more detail later.
+:::
+
+::: {#fs-id1773192 .note data-type="note" has-label="true" data-label=""}
+::: {data-type="title"}
+Making Connections: Take-Home Experiment---Reaction Time
+:::
+
+A simple experiment can be done to determine your reaction time. Have a
+friend hold a ruler between your thumb and index finger, separated by
+about 1 cm. Note the mark on the ruler that is right between your
+fingers. Have your friend drop the ruler unexpectedly, and try to catch
+it between your two fingers. Note the new reading on the ruler. Assuming
+acceleration is that due to gravity, calculate your reaction time. How
+far would you travel in a car (moving at 30 m/s) if the time it took
+your foot to go from the gas pedal to the brake was twice this reaction
+time?
+:::
+
+::: {#fs-id2186600 data-type="example"}
+::: {data-type="title"}
+Calculating Velocity of a Falling Object: A Rock Thrown Down
+:::
+
+What happens if the person on the cliff throws the rock straight down,
+instead of straight up? To explore this question, calculate the velocity
+of the rock when it is 5.10 m below the starting point, and has been
+thrown downward with an initial speed of 13.0 m/s.
+
+::: {.tinysection}
+[Strategy]{data-type="title"}
+:::
+
+Draw a sketch.
+
+![](images/Figure_02_06_01a.jpg){#import-auto-id2150750}
+
+Since up is positive, the final position of the rock will be negative
+because it finishes below the starting point at ${y_{0} = 0}{}$.
+Similarly, the initial velocity is downward and therefore negative, as
+is the acceleration due to gravity. We expect the final velocity to be
+negative since the rock will continue to move downward.
+
+::: {.tinysection}
+[Solution]{data-type="title"}
+:::
+
+1\. Identify the knowns. $y_{0} = 0$;
+${y_{1}{= - 5}}\text{.}\text{10\ m}$;
+$v_{0} = {- \text{13}}\text{.0\ m/s}$;
+${{{a = {- g}} = {- 9}}\text{.}\text{80\ m}\text{/s}^{2}}{}$.
+
+2\. Choose the kinematic equation that makes it easiest to solve the
+problem. The equation ${{v^{2} = {v_{0}^{2} + 2a}}({y - y_{0}})}{}$
+works well because the only unknown in it is $v{}$. (We will plug
+$y_{1}{}$ in for $y{}$.)
+
+3\. Enter the known values
+
+::: {#import-auto-id2025017 data-type="equation"}
+$${{{v^{2} = {\left( {{- \text{13}}\text{.}\text{0\ m/s}} \right)^{2} + 2}}\left( {{- 9}\text{.}\text{80\ m/s}^{2}} \right){\left( {{- 5}\text{.}{\text{10\ m} - \text{0\ m}}} \right) = \text{268}}\text{.}\text{96\ m}^{2}\text{/s}^{2}},}{}$$
+:::
+
+where we have retained extra significant figures because this is an
+intermediate result.
+
+Taking the square root, and noting that a square root can be positive or
+negative, gives
+
+::: {#import-auto-id1763704 data-type="equation"}
+$${{{v = {\pm \text{16}}}\text{.4\ m/s}}.}{}$$
+:::
+
+The negative root is chosen to indicate that the rock is still heading
+down. Thus,
+
+::: {#import-auto-id2563747 data-type="equation"}
+$${{{v = {- \text{16}}}\text{.4\ m/s}}.}{}$$
+:::
+
+::: {.tinysection}
+[Discussion]{data-type="title"}
+:::
+
+Note that *this is exactly the same velocity the rock had at this
+position when it was thrown straight upward with the same initial
+speed*. (See [link](#fs-id4067058){.autogenerated-content} and
+[link](#import-auto-id4173440){.autogenerated-content}(a).) This is not
+a coincidental result. Because we only consider the acceleration due to
+gravity in this problem, the *speed* of a falling object depends only on
+its initial speed and its vertical position relative to the starting
+point. For example, if the velocity of the rock is calculated at a
+height of 8.10 m above the starting point (using the method from
+[link](#fs-id4067058){.autogenerated-content}) when the initial velocity
+is 13.0 m/s straight up, a result of ${{\pm 3}\text{.}\text{20\ m/s}}{}$
+is obtained. Here both signs are meaningful; the positive value occurs
+when the rock is at 8.10 m and heading up, and the negative value occurs
+when the rock is at 8.10 m and heading back down. It has the same
+*speed* but the opposite direction.
+
+![(a) A person throws a rock straight up, as explored in
+[link](#fs-id4067058){.autogenerated-content}. The arrows are velocity
+vectors at 0, 1.00, 2.00, and 3.00 s. (b) A person throws a rock
+straight down from a cliff with the same initial speed as before, as in
+[link](#fs-id2186600){.autogenerated-content}. Note that at the same
+distance below the point of release, the rock has the same velocity in
+both cases.](images/Figure_02_06_00b.jpg){#import-auto-id4173440}
+
+Another way to look at it is this: In
+[link](#fs-id4067058){.autogenerated-content}, the rock is thrown up
+with an initial velocity of ${\text{13}\text{.0\ m/s}}{}$. It rises and
+then falls back down. When its position is $y = 0$ on its way back down,
+its velocity is ${{- \text{13}}\text{.0\ m/s}}{}$. That is, it has the
+same speed on its way down as on its way up. We would then expect its
+velocity at a position of ${{y = {- 5}}\text{.}\text{10\ m}}{}$ to be
+the same whether we have thrown it upwards at
+${+ \text{13}}\text{.0\ m/s}$ or thrown it downwards at
+${- \text{13}}\text{.0\ m/s}$. The velocity of the rock on its way down
+from $y = 0$ is the same whether we have thrown it up or down to start
+with, as long as the speed with which it was initially thrown is the
+same.
+:::
+
+::: {#fs-id3526422 data-type="example"}
+::: {data-type="title"}
+Find *g* from Data on a Falling Object
+:::
+
+The acceleration due to gravity on Earth differs slightly from place to
+place, depending on topography (e.g., whether you are on a hill or in a
+valley) and subsurface geology (whether there is dense rock like iron
+ore as opposed to light rock like salt beneath you.) The precise
+acceleration due to gravity can be calculated from data taken in an
+introductory physics laboratory course. An object, usually a metal ball
+for which air resistance is negligible, is dropped and the time it takes
+to fall a known distance is measured. See, for example,
+[link](#import-auto-id4097254){.autogenerated-content}. Very precise
+results can be produced with this method if sufficient care is taken in
+measuring the distance fallen and the elapsed time.
+
+![Positions and velocities of a metal ball released from rest when air
+resistance is negligible. Velocity is seen to increase linearly with
+time while displacement increases with time squared. Acceleration is a
+constant and is equal to gravitational
+acceleration.](images/Figure_02_06_02.jpg){#import-auto-id4097254}
+
+Suppose the ball falls 1.0000 m in 0.45173 s. Assuming the ball is not
+affected by air resistance, what is the precise acceleration due to
+gravity at this location?
+
+::: {.tinysection}
+[Strategy]{data-type="title"}
+:::
+
+Draw a sketch.
+
+![](images/Figure_02_06_02b.jpg){#import-auto-id4051158}
+
+We need to solve for acceleration $a{}$. Note that in this case,
+displacement is downward and therefore negative, as is acceleration.
+
+::: {.tinysection}
+[Solution]{data-type="title"}
+:::
+
+1\. Identify the knowns. $y_{0} = 0$; $y = –1\text{.0000\ m}$;
+${{t = 0}\text{.45173}}{}$; ${v_{0} = 0}{}$.
+
+2\. Choose the equation that allows you to solve for $a{}$ using the
+known values.
+
+::: {#import-auto-id3578358 data-type="equation"}
+$${{y = {y_{0} + v_{0}}}{t + \frac{1}{2}}\text{at}^{2}}{}$$
+:::
+
+3\. Substitute 0 for $v_{0}{}$ and rearrange the equation to solve for
+$a{}$. Substituting 0 for $v_{0}{}$ yields
+
+::: {#import-auto-id3538274 data-type="equation"}
+$${{y = {y_{0} + \frac{1}{2}}}\text{at}^{2}\text{.}}{}$$
+:::
+
+Solving for $a{}$ gives
+
+::: {#import-auto-id3504484 data-type="equation"}
+$${{a = \frac{2\left( {y - y_{0}} \right)}{t^{2}}}\text{.}}{}$$
+:::
+
+4\. Substitute known values yields
+
+::: {#import-auto-id2571438 data-type="equation"}
+$${{{a = \frac{2{( - 1}\text{.}\text{0000\ m\ –\ 0})}{(0\text{.}\text{45173\ s})^{2}}} = {- 9}}\text{.}\text{8010\ m/s}^{2},}{}$$
+:::
+
+so, because ${a = {- g}}{}$ with the directions we have chosen,
+
+::: {#import-auto-id1706716 data-type="equation"}
+$${{{g = 9}\text{.}\text{8010\ m/s}^{2}}.}{}$$
+:::
+
+::: {.tinysection}
+[Discussion]{data-type="title"}
+:::
+
+The negative value for $a{}$ indicates that the gravitational
+acceleration is downward, as expected. We expect the value to be
+somewhere around the average value of ${9\text{.}\text{80\ m/s}^{2}}{}$,
+so ${9\text{.}\text{8010\ m/s}^{2}}{}$ makes sense. Since the data going
+into the calculation are relatively precise, this value for $g{}$ is
+more precise than the average value of
+${9\text{.}\text{80\ m/s}^{2}}{}$; it represents the local value for the
+acceleration due to gravity.
+:::
+
+::: {#fs-id2149869 .note data-type="note"}
+::: {data-type="title"}
+Applying the Science Practices: Finding Acceleration Due to Gravity
+:::
+
+While it is well established that the acceleration due to gravity is
+quite nearly 9.8 m/s^2^ at all locations on Earth, you can verify this
+for yourself with some basic materials.
+
+Your task is to find the acceleration due to gravity at your location.
+Achieving an acceleration of precisely 9.8 m/s^2^ will be difficult.
+However, with good preparation and attention to detail, you should be
+able to get close. Before you begin working, consider the following
+questions.
+
+*What measurements will you need to take in order to find the
+acceleration due to gravity?*
+
+*What relationships and equations found in this chapter may be useful in
+calculating the acceleration?*
+
+*What variables will you need to hold constant?*
+
+*What materials will you use to record your measurements?*
+
+Upon completing these four questions, record your procedure. Once
+recorded, you may carry out the experiment. If you find that your
+experiment cannot be carried out, you may revise your procedure.
+
+Once you have found your experimental acceleration, compare it to the
+assumed value of 9.8 m/s^2^. If error exists, what were the likely
+sources of this error? How could you change your procedure in order to
+improve the accuracy of your findings?
+:::
+
+::: {#fs-id4172780 data-type="exercise" element-type="check-understanding" data-label=""}
+::: {data-type="title"}
+Check Your Understanding
+:::
+
+::: {#fs-id1747475 data-type="problem"}
+A chunk of ice breaks off a glacier and falls 30.0 meters before it hits
+the water. Assuming it falls freely (there is no air resistance), how
+long does it take to hit the water?
+:::
+
+::: {#fs-id1652531 data-type="solution"}
+We know that initial position ${y_{0} = 0}{}$, final position
+${y = \text{−30}\text{.}\text{0\ m}}{}$, and
+${{a = {- g}} = {- 9}}\text{.}\text{80\ m/s}^{2}$. We can then use the
+equation ${y = {y_{0} + v_{0}}}{t + \frac{1}{2}}\text{at}^{2}$ to solve
+for $t$. Inserting ${a = {- g}}{}$, we obtain
+
+::: {#import-auto-id2358783 data-type="equation"}
+$$\begin{array}{lll}
+y & = & {{{0 + 0} - \frac{1}{2}}\text{gt}^{2}} \\
+t^{2} & = & \frac{2y}{- g} \\
+t & = & {{{{\pm \sqrt{\frac{2y}{- g}} = {\pm \sqrt{\frac{2( - \text{30.0\ m})}{- 9.80\ m\text{/s}^{2}}}}} = {\pm \sqrt{\text{6.12}\ s^{2}}}} = \text{2.47\ s} \approx}\text{2.5\ s}} \\
+\end{array}$$
+:::
+
+where we take the positive value as the physically relevant answer.
+Thus, it takes about 2.5 seconds for the piece of ice to hit the water.
+:::
+:::
+
+::: {#fs-id2006949 .note data-type="note" has-label="true" data-label=""}
+::: {data-type="title"}
+Equation Grapher
+:::
+
+Learn about graphing polynomials. The shape of the curve changes as the
+constants are adjusted. View the curves for the individual terms (e.g.
+${y = \text{bx}}{}$) to see how they add to generate the polynomial
+curve.
+
+```{=html}
+<figure id="eip-idm245656144fig">
+```
+::: {#graphing_polynomials data-type="media" data-alt="Learn about graphing polynomials."}
+```{=html}
+<iframe width="660" height="371.4" src="https://openstax.org/l/02equation_grapher">
+```
+`<!-- no-selfclose -->`{=html}
+```{=html}
+</iframe>
+```
+:::
+
+```{=html}
+</figure>
+```
+:::
+:::
+
+::: {#fs-id1822906-summary depth="1"}
+### Section Summary { data-type="title"}
+
+-   [An object in free-fall experiences constant acceleration if air
+    resistance is negligible.]{#import-auto-id1715211}
+-   [On Earth, all free-falling objects have an acceleration due to
+    gravity $g{}$, which averages]{#import-auto-id1715213}
+    ::: {#import-auto-id3547826 data-type="equation"}
+    $${{{g = 9}\text{.}\text{80\ m/s}^{2}}.}{}$$
+    :::
+-   [Whether the acceleration *a* should be taken as ${+ g}{}$ or
+    ${- g}{}$ is determined by your choice of coordinate system. If you
+    choose the upward direction as positive,
+    ${{a = {- g}} = {- 9}}\text{.}\text{80\ m}\text{/s}^{2}$ is
+    negative. In the opposite case,
+    ${a = {{+g} = 9}\text{.}\text{80\ m/s}^{2}}{}$ is positive. Since
+    acceleration is constant, the kinematic equations above can be
+    applied with the appropriate ${+ g}{}$ or ${- g}{}$ substituted for
+    $a{}$.]{#import-auto-id2150922}
+-   [For objects in free-fall, up is normally taken as positive for
+    displacement, velocity, and acceleration.]{#import-auto-id4051701}
+:::
+
+::: {#fs-id1358164 .conceptual-questions depth="1" element-type="conceptual-questions"}
+### Conceptual Questions { data-type="title"}
+
+::: {#fs-id1427339 data-type="exercise" element-type="conceptual-questions"}
+::: {#fs-id4095246 data-type="problem"}
+What is the acceleration of a rock thrown straight upward on the way up?
+At the top of its flight? On the way down?
+:::
+:::
+
+::: {#fs-id3606158 data-type="exercise" element-type="conceptual-questions"}
+::: {#fs-id1713184 data-type="problem"}
+An object that is thrown straight up falls back to Earth. This is
+one-dimensional motion. (a) When is its velocity zero? (b) Does its
+velocity change direction? (c) Does the acceleration due to gravity have
+the same sign on the way up as on the way down?
+:::
+:::
+
+::: {#fs-id2044867 data-type="exercise" element-type="conceptual-questions"}
+::: {#fs-id2006404 data-type="problem"}
+Suppose you throw a rock nearly straight up at a coconut in a palm tree,
+and the rock misses on the way up but hits the coconut on the way down.
+Neglecting air resistance, how does the speed of the rock when it hits
+the coconut on the way down compare with what it would have been if it
+had hit the coconut on the way up? Is it more likely to dislodge the
+coconut on the way up or down? Explain.
+:::
+:::
+
+::: {#fs-id1773324 data-type="exercise" element-type="conceptual-questions"}
+::: {#fs-id2300211 data-type="problem"}
+If an object is thrown straight up and air resistance is negligible,
+then its speed when it returns to the starting point is the same as when
+it was released. If air resistance were not negligible, how would its
+speed upon return compare with its initial speed? How would the maximum
+height to which it rises be affected?
+:::
+:::
+
+::: {#fs-id1776230 data-type="exercise" element-type="conceptual-questions"}
+::: {#fs-id2158441 data-type="problem"}
+The severity of a fall depends on your speed when you strike the ground.
+All factors but the acceleration due to gravity being the same, how many
+times higher could a safe fall on the Moon be than on Earth
+(gravitational acceleration on the Moon is about 1/6 that of the Earth)?
+:::
+:::
+
+::: {#fs-id2271654 data-type="exercise" element-type="conceptual-questions"}
+::: {#fs-id4018154 data-type="problem"}
+How many times higher could an astronaut jump on the Moon than on Earth
+if his takeoff speed is the same in both locations (gravitational
+acceleration on the Moon is about 1/6 of $g{}$ on Earth)?
+:::
+:::
+:::
+
+::: {#fs-id3514521 .problems-exercises depth="1" element-type="problems-exercises"}
+### Problems & Exercises { data-type="title"}
+
+Assume air resistance is negligible unless otherwise stated.
+
+::: {#fs-id1516821 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id2558696 data-type="problem"}
+Calculate the displacement and velocity at times of (a) 0.500, (b) 1.00,
+(c) 1.50, and (d) 2.00 s for a ball thrown straight up with an initial
+velocity of 15.0 m/s. Take the point of release to be ${y_{0} = 0}{}$.
+:::
+
+::: {#fs-id1722520 data-type="solution"}
+\(a\) ${{y_{1} = 6}\text{.}\text{28\ m}}{}$;
+${{v_{1} = \text{10}}\text{.}\text{1\ m/s}}{}$
+
+\(b\) ${{y_{2} = \text{10}}\text{.}\text{1\ m}}{}$;
+${{v_{2} = 5}\text{.}\text{20\ m/s}}{}$
+
+\(c\) ${{y_{3} = 11}\text{.}5\ \ m}{}$;
+${{v_{3} = 0}\text{.300\ m/s}}{}$
+
+\(d\) ${y_{4} = 10}\text{.4\ m}$; ${{v_{4} = {- 4}}\text{.60\ m/s}}{}$
+:::
+:::
+
+::: {#fs-id1746555 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id4057791 data-type="problem"}
+Calculate the displacement and velocity at times of (a) 0.500, (b) 1.00,
+(c) 1.50, (d) 2.00, and (e) 2.50 s for a rock thrown straight down with
+an initial velocity of 14.0 m/s from the Verrazano Narrows Bridge in New
+York City. The roadway of this bridge is 70.0 m above the water.
+:::
+:::
+
+::: {#fs-id1781525 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id1781526 data-type="problem"}
+A basketball referee tosses the ball straight up for the starting
+tip-off. At what velocity must a basketball player leave the ground to
+rise 1.25 m above the floor in an attempt to get the ball?
+:::
+
+::: {#fs-id2300377 data-type="solution"}
+${{v_{0} = 4}\text{.}\text{95\ m/s}}{}$
+:::
+:::
+
+::: {#fs-id1582773 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id2593341 data-type="problem"}
+A rescue helicopter is hovering over a person whose boat has sunk. One
+of the rescuers throws a life preserver straight down to the victim with
+an initial velocity of 1.40 m/s and observes that it takes 1.8 s to
+reach the water. (a) List the knowns in this problem. (b) How high above
+the water was the preserver released? Note that the downdraft of the
+helicopter reduces the effects of air resistance on the falling life
+preserver, so that an acceleration equal to that of gravity is
+reasonable.
+:::
+:::
+
+::: {#fs-id1788413 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id1757046 data-type="problem"}
+A dolphin in an aquatic show jumps straight up out of the water at a
+velocity of 13.0 m/s. (a) List the knowns in this problem. (b) How high
+does his body rise above the water? To solve this part, first note that
+the final velocity is now a known and identify its value. Then identify
+the unknown, and discuss how you chose the appropriate equation to solve
+for it. After choosing the equation, show your steps in solving for the
+unknown, checking units, and discuss whether the answer is reasonable.
+(c) How long is the dolphin in the air? Neglect any effects due to his
+size or orientation.
+:::
+
+::: {#fs-id1722491 data-type="solution"}
+\(a\) ${{a = {- 9}}\text{.}\text{80\ m/s}^{2}}{}$;
+${{v_{0} = \text{13}}\text{.}\text{0\ m/s}}{}$;
+${y_{0} = \text{0\ m}}{}$
+
+\(b\) ${{v = 0}\text{m/s}}{}$. Unknown is distance $y{}$ to top of
+trajectory, where velocity is zero. Use equation
+${{v^{2} = {v_{0}^{2} + 2a}}\left( {y - y_{0}} \right)}{}$ because it
+contains all known values except for $y{}$, so we can solve for $y{}$.
+Solving for $y{}$ gives
+
+::: {#eip-id2418613 .unnumbered data-type="equation" data-label=""}
+$$\begin{array}{lll}
+{v^{2} - v_{0}^{2}} & = & {2a\left( {y - y_{0}} \right)} \\
+\frac{v^{2} - v_{0}^{2}}{2a} & = & {y - y_{0}} \\
+y & = & {{{{y_{0} + \frac{v^{2} - v_{0}^{2}}{2a}} = 0\ m + \frac{\left( \text{0\ m/s} \right)^{2} - \left( \text{13.0\ m/s} \right)^{2}}{2\left( {- \text{9.80\ m}\text{/s}^{2}} \right)}} =}\text{8.62\ m}} \\
+\end{array}$$
+:::
+
+Dolphins measure about 2 meters long and can jump several times their
+length out of the water, so this is a reasonable result.
+
+\(c\) ${2\text{.}\text{65\ s}}{}$
+:::
+:::
+
+::: {#fs-id1818111 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id1758954 data-type="problem"}
+A swimmer bounces straight up from a diving board and falls feet first
+into a pool. She starts with a velocity of 4.00 m/s, and her takeoff
+point is 1.80 m above the pool. (a) How long are her feet in the air?
+(b) What is her highest point above the board? (c) What is her velocity
+when her feet hit the water?
+:::
+:::
+
+::: {#fs-id4035152 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id1746294 data-type="problem"}
+\(a\) Calculate the height of a cliff if it takes 2.35 s for a rock to
+hit the ground when it is thrown straight up from the cliff with an
+initial velocity of 8.00 m/s. (b) How long would it take to reach the
+ground if it is thrown straight down with the same speed?
+:::
+
+::: {#fs-id2367879 data-type="solution"}
+![](images/Figure_02_07_05.jpg){#import-auto-id1658354}
+
+\(a\) 8.26 m
+
+\(b\) 0.717 s
+:::
+:::
+
+::: {#fs-id2576295 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id1742640 data-type="problem"}
+A very strong, but inept, shot putter puts the shot straight up
+vertically with an initial velocity of 11.0 m/s. How long does he have
+to get out of the way if the shot was released at a height of 2.20 m,
+and he is 1.80 m tall?
+:::
+:::
+
+::: {#fs-id3543404 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id1471620 data-type="problem"}
+You throw a ball straight up with an initial velocity of 15.0 m/s. It
+passes a tree branch on the way up at a height of 7.00 m. How much
+additional time will pass before the ball passes the tree branch on the
+way back down?
+:::
+
+::: {#fs-id2042262 data-type="solution"}
+1.91 s
+:::
+:::
+
+::: {#fs-id4076783 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id1544876 data-type="problem"}
+A kangaroo can jump over an object 2.50 m high. (a) Calculate its
+vertical speed when it leaves the ground. (b) How long is it in the air?
+:::
+:::
+
+::: {#fs-id4073110 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id2360908 data-type="problem"}
+Standing at the base of one of the cliffs of Mt. Arapiles in Victoria,
+Australia, a hiker hears a rock break loose from a height of 105 m. He
+can\'t see the rock right away but then does, 1.50 s later. (a) How far
+above the hiker is the rock when he can see it? (b) How much time does
+he have to move before the rock hits his head?
+:::
+
+::: {#fs-id4065048 data-type="solution"}
+\(a\) 94.0 m
+
+\(b\) 3.13 s
+:::
+:::
+
+::: {#fs-id776278 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id3510883 data-type="problem"}
+An object is dropped from a height of 75.0 m above ground level. (a)
+Determine the distance traveled during the first second. (b) Determine
+the final velocity at which the object hits the ground. (c) Determine
+the distance traveled during the last second of motion before hitting
+the ground.
+:::
+:::
+
+::: {#fs-id1798285 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id1757237 data-type="problem"}
+There is a 250-m-high cliff at Half Dome in Yosemite National Park in
+California. Suppose a boulder breaks loose from the top of this cliff.
+(a) How fast will it be going when it strikes the ground? (b) Assuming a
+reaction time of 0.300 s, how long will a tourist at the bottom have to
+get out of the way after hearing the sound of the rock breaking loose
+(neglecting the height of the tourist, which would become negligible
+anyway if hit)? The speed of sound is 335 m/s on this day.
+:::
+
+::: {#fs-id1465838 data-type="solution"}
+\(a\) -70.0 m/s (downward)
+
+\(b\) 6.10 s
+:::
+:::
+
+::: {#fs-id4044798 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id1758045 data-type="problem"}
+A ball is thrown straight up. It passes a 2.00-m-high window 7.50 m off
+the ground on its path up and takes .310 s to go past the window. What
+was the ball\'s initial velocity?
+:::
+:::
+
+::: {#fs-id4048528 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id4122121 data-type="problem"}
+Suppose you drop a rock into a dark well and, using precision equipment,
+you measure the time for the sound of a splash to return. (a) Neglecting
+the time required for sound to travel up the well, calculate the
+distance to the water if the sound returns in 2.0000 s. (b) Now
+calculate the distance taking into account the time for sound to travel
+up the well. The speed of sound is 332.00 m/s in this well.
+:::
+
+::: {#fs-id1772027 data-type="solution"}
+\(a\) ${\text{19}\text{.}\text{6\ m}}{}$
+
+\(b\) ${\text{18}\text{.}\text{5\ m}}{}$
+:::
+:::
+
+::: {#fs-id2561073 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id4020060 data-type="problem"}
+A steel ball is dropped onto a hard floor from a height of 1.50 m and
+rebounds to a height of 1.45 m. (a) Calculate its velocity just before
+it strikes the floor. (b) Calculate its velocity just after it leaves
+the floor on its way back up. (c) Calculate its acceleration during
+contact with the floor if that contact lasts 0.0800 ms
+${(8\text{.}{\text{00} \times \text{10}^{- 5}}\ \text{s})}{}$. (d) How
+much did the ball compress during its collision with the floor, assuming
+the floor is absolutely rigid?
+:::
+:::
+
+::: {#fs-id2227967 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id1934778 data-type="problem"}
+A coin is dropped from a hot-air balloon that is 300 m above the ground
+and rising at 10.0 m/s upward. For the coin, find (a) the maximum height
+reached, (b) its position and velocity 4.00 s after being released, and
+(c) the time before it hits the ground.
+:::
+
+::: {#fs-id3557416 data-type="solution"}
+\(a\) 305 m
+
+\(b\) 262 m, -29.2 m/s
+
+\(c\) 8.91 s
+:::
+:::
+
+::: {#fs-id3597625 data-type="exercise" element-type="problems-exercises"}
+::: {#fs-id3502580 data-type="problem"}
+A soft tennis ball is dropped onto a hard floor from a height of 1.50 m
+and rebounds to a height of 1.10 m. (a) Calculate its velocity just
+before it strikes the floor. (b) Calculate its velocity just after it
+leaves the floor on its way back up. (c) Calculate its acceleration
+during contact with the floor if that contact lasts 3.50 ms
+${(3\text{.}{\text{50} \times \text{10}^{- 3}}\ \text{s})}{}$. (d) How
+much did the ball compress during its collision with the floor, assuming
+the floor is absolutely rigid?
+:::
+:::
+:::
+
+::: {#fs-id2378715 .ap-test-prep depth="1" element-type="ap-test-prep"}
+### Test Prep for AP Courses { data-type="title"}
+
+::: {#fs-id2378722 data-type="exercise" element-type="ap-test-prep"}
+::: {#fs-id2378725 data-type="problem"}
+Observing a spacecraft land on a distant asteroid, scientists notice
+that the craft is falling at a rate of 5 m/s. When it is 100 m closer to
+the surface of the asteroid, the craft reports a velocity of 8 m/s.
+According to their data, what is the approximate gravitational
+acceleration on this asteroid?
+
+a.  0 m/s^2^
+b.  0.03 m/s^2^
+c.  0.20 m/s^2^
+d.  0.65 m/s^2^
+e.  33 m/s^2^
+:::
+
+::: {#fs-id2346806 data-type="solution"}
+\(c\)
+:::
+:::
+:::
+
+::: {data-type="glossary"}
+### Glossary { data-type="glossary-title"}
+
+free-fall
+:   the state of movement that results from gravitational force only
+
+```{=html}
+<!-- -->
+```
+
+acceleration due to gravity
+:   acceleration of an object as a result of gravity
+:::
