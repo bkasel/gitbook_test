@@ -1,6 +1,5 @@
 bookdown::gitbook:
   css: style.css
-  edit: https://github.com/bkasel/gitbook_test/edit/master/%s
   config:
     toc:
       before: |

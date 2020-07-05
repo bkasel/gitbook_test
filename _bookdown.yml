@@ -2,6 +2,7 @@ book_filename: "Kinematik und Dynamik"
 delete_merged_file: true
 rmd_subdir: true
 output_dir: "docs/"
+edit: https://github.com/bkasel/gitbook_test/edit/master/%s
 language:
   ui:
     chapter_name: "Kapitel "
