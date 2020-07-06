@@ -89,7 +89,7 @@
 
 \title{Kinematik und Dynamik}
 \author{Kasel Ben}
-\date{2020-07-03}
+\date{2020-07-06}
 
 \begin{document}
 \maketitle
@@ -103,8 +103,8 @@
 
 Dieses Kapitel basiert auf der Arbeit von Openstax \citet{wolfe_college_2015} und wurde von Ben Kasel übersetzt und an das luxemburgische Schulsystem angepasst.
 
-\hypertarget{kinematics}{%
-\chapter{Kinematics}\label{kinematics}}
+\hypertarget{kinematik}{%
+\chapter{Kinematik}\label{kinematik}}
 
 \hypertarget{einleitung}{%
 \section{Einleitung}\label{einleitung}}
@@ -118,65 +118,32 @@ Commons)}\label{import-auto-id2758213}
 }
 \end{figure}
 
-Wo man auch hinsieht, beobachtet man Körper in Bewegung.
-Objects are in motion everywhere we look. Everything from a tennis game
-to a space-probe flyby of the planet Neptune involves motion. When you
-are resting, your heart moves blood through your veins. Even in
-inanimate objects, there is a continuous motion in the vibrations of
-atoms and molecules. Questions about motion are interesting in and of
-themselves: \emph{How long will it take for a space probe to get to Mars?
-Where will a football land if it is thrown at a certain angle?}
+Wo man auch hinsieht, beobachtet man Körper in Bewegung, von einem Tennismatch zum Vorbeiflug einer Raumsonde am Neptun. Selbst wenn man ruhig sitzt, bewegt das Herz Blut durch unsere Blutgefässe und jedes einzelne Atom und Molekül vibriert und bewegt sich kontinuierlich. Welche Fragen könnte man sich zu Bewegungen stellen? \emph{Wann wird eine bestimmte Raumsonde den Mars erreichen? Wie fliegt ein Fussball wenn er in einem bestimmten Winkel getreten wird?}
 
-Understanding motion will not only provide answers to these questions,
-but will be key to understanding more advanced concepts in physics. For
-example, the discussion of force in Chapter 4 will not fully make sense
-until you understand acceleration. This relationship between force and
-acceleration is also critical to understanding Big Idea 3.
+Die Analyse von Bewegungen liefert uns nicht nur Antworten auf diese Fragen, sondern bildet auch die Grundlage für weiterführende Konzepte in der Physik. So kann man \emph{Kräfte} nur schwer begreifen wenn man das Konzept der \emph{Beschleunigung} nicht versteht. Diese Verbindung zwischen Kräften und Beschleunigung ist nötig um die \emph{Grundidee 3} zu verstehen.
 
-Additionally, this unit will explore the topic of reference frames, a
-critical component to quantifying how things move. If you have ever
-waved to a departing friend at a train station, you are likely familiar
-with this idea. While you see your friend move away from you at a
-considerable rate, those sitting with her will likely see her as not
-moving. The effect that the chosen reference frame has on your
-observations is substantial, and an understanding of this is needed to
-grasp both Enduring Understanding 3.A and Essential Knowledge 3.A.1.
+Um Bewegungen quantitativ zu beschreibungen, wird in dieser Einheit das Thema des \emph{Bezugsystems} behandelt. Wenn Sie bereits von einer Freundin am Bahnhofsteig verabschiedet haben, verstehen Sie diese Idee bestimmt. Sie sehen wie Ihre Freundin sich von Ihnen entfernt, obwohl sie sich für die anderen Passagiere im Ruhezustand befindet. Das Bezugsystem beeinflusst die Beobachtung und dieser Zusammenhang muss für ein grundlegendes Verständnis von 3.A und Essential Knowledge 3.A.1. klar sein.
 
-Our formal study of physics begins with \textbf{kinematics,} which is defined
-as the \emph{study of motion without considering its causes}. In one- and
-two-dimensional kinematics we will study only the \emph{motion} of a
-football, for example, without worrying about what forces cause or
-change its motion. In this chapter, we examine the simplest type of
-motion---namely, motion along a straight line, or one-dimensional
-motion. Later, in two-dimensional kinematics, we apply concepts
-developed here to study motion along curved paths (two- and
-three-dimensional motion), for example, that of a car rounding a curve.
+Das formale Studium der Physik beginnt mit der \textbf{Kinematik} die als \emph{Lehre der Bewegung ohne deren Ursachen} definiert ist. Man untersucht also zum Beispiel die ein- oder zwei-dimensionale Bewegung eines Fussballs ohne sich zu Fragen welche Kräfte die Bewegung verursacht haben. In diesem Kapitel beschränken wir uns auf die einfachsten Bewegungen, solche die eindimensional oder geradlinig sind. Die gelernten Konzepte wenden wir dann im nächsten Kapitel auf Bewegungen mit kurvenförmigen Bahnkurven oder zweidimensionale Bewegungen an, zum Beispiel ein Auto in einer Kurve.
 
-The content in this chapter supports:
+Der Inhalt dieses Kapitels unterstützt
 
-\textbf{Big Idea 3} The interactions of an object with other objects can be
-described by forces.
+\textbf{Grundidee 3} Wechselwirkungen zwischen Körpern können mit Kräften beschrieben werden.
 
-Enduring Understanding 3.A All forces share certain common
-characteristics when considered by observers in inertial reference
-frames.
+\emph{dauerhaftes Verständnis 3.A} Beobachter in Inertialsystemen sind sich einig über die Charakteristiken von Kräften.
 
-Essential Knowledge 3.A.1 An observer in a particular reference frame
-can describe the motion of an object using such quantities as position,
-displacement, distance, velocity, speed, and acceleration.
+\emph{Essential Knowledge 3.A.1} Ein Beobachter in einem bestimmten Bezugsystem kann die Bewegung eines Körpers andhand der Grössen Position, Positionsänderung, Strecke, Geschwindigkeit (Vektor oder Betrag) und Beschleunigung beschreiben.
 
 \hypertarget{concept-trailer-1d-kinematics}{}
 
-\hypertarget{displacement}{%
-\section{Displacement}\label{displacement}}
+\hypertarget{positionsuxe4nderung}{%
+\section{Positionsänderung}\label{positionsuxe4nderung}}
 
 \begin{figure}
 \hypertarget{import-auto-id2723149}{%
 \centering
 \includegraphics{images/Figure_02_01_00.jpg}
-\caption{These cyclists in Vietnam can be described by their position relative
-to buildings and a canal. Their motion can be described by their change
-in position, or displacement, in the frame of reference. (credit: Suzan
+\caption{Diese Fahrradfahrer in Vietnam können anhand ihrer Position in Bezug auf die Gebäude oder den Kanal beschrieben werden. Ihre Bewegung kann mit der Änderung der Position in diesem Bezugsystem beschrieben werden. (credit: Suzan
 Black, Fotopedia)}\label{import-auto-id2723149}
 }
 \end{figure}
@@ -184,39 +151,32 @@ Black, Fotopedia)}\label{import-auto-id2723149}
 \hypertarget{fs-id3277370}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives}{%
-\subsection{Learning Objectives}\label{learning-objectives}}
+\hypertarget{lernziele}{%
+\subsection{Lernziele}\label{lernziele}}
 
-By the end of this section, you will be able to:
+Nach diesem Kapitel solltest du folgendes können:
 
 \begin{itemize}
 \tightlist
 \item
-  Define position, displacement, distance, and distance traveled in a
-  particular frame of reference.
+  Position, Positionsänderung, Strecke, zurückgelegte Strecke in einem bestimmten Bezugsystem definieren.
 \item
-  Explain the relationship between position and displacement.
+  Den Zusammenhang zwischen Possition und Positionsänderung erklären.
 \item
-  Distinguish between displacement and distance traveled.
+  Den Unterschied zwischen Positionsänderung und zurückgelegter Strecke kennen.
 \item
-  Calculate displacement and distance given initial position, final
-  position, and the path between the two.
+  Die Positionsänderung, und Strecke anhand der Anfangs- und Endposition, sowie der Bahnkurve zwischen beiden Punkten
 \end{itemize}
 
-The information presented in this section supports the following AP®
-learning objectives and science practices:
+Die Informationen in diesem Kapitel unterstützen folgende Punkte des AP® Kurriculums:
 
 \begin{itemize}
 \tightlist
 \item
-  \textbf{3.A.1.1} The student is able to express the motion of an object
-  using narrative, mathematical, and graphical representations.
+  \textbf{3.A.1.1} Der Schüler kann die Bewegung eines Körpers sprachlich, mathematisch und und grafisch beschreiben.
   \textbf{(S.P. 1.5, 2.1, 2.2)}
 \item
-  \textbf{3.A.1.3} The student is able to analyze experimental data
-  describing the motion of an object and is able to express the
-  results of the analysis using narrative, mathematical, and graphical
-  representations. \textbf{(S.P. 5.1)}
+  \textbf{3.A.1.3} Der Schüler kann Versuchsergebnisse analysieren und diese dazu nutzen die Bewegung des untersuchten Körpers sprachlich, mathematisch und grafisch darstellen. \textbf{(S.P. 5.1)}
 \end{itemize}
 
 \end{learning-objectives}
@@ -225,17 +185,8 @@ learning objectives and science practices:
 \hypertarget{position}{%
 \subsection{Position}\label{position}}
 
-In order to describe the motion of an object, you must first be able to
-describe its {position}---where it is at any
-particular time. More precisely, you need to specify its position
-relative to a convenient reference frame. Earth is often used as a
-reference frame, and we often describe the position of an object as it
-relates to stationary objects in that reference frame. For example, a
-rocket launch would be described in terms of the position of the rocket
-with respect to the Earth as a whole, while a professor's position
-could be described in terms of where she is in relation to the nearby
-white board. (See
-\protect\hyperlink{import-auto-id2972079}{link}.) In other cases,
+Bovir man sich der Beschreibung der Bewegung widmen kann, muss man zuvor die {Position} oder den Ort eines Körpers zu einem bestimmten Zeitpunkt zu bestimmen --- Wo befindet sich der Körper, oder genauer gefragt, wo im Bezug zu einem bestimmten Beobachter. Die Erde wird oft als Bezugsystem benutzt und wir beschreiben die Bewegung eines Körpers in Bezug auf Körper die in diesem Bezugsystem ruhen. Zum Beispiel wird der Start einer Rakete in Bezug auf die gesamte Erde beschrieben, während die Position des Lehrers in Bezug auf die Tafel beschrieben wird. (Abbildung
+\citet{ref}\{import-auto-id2972079\} \protect\hyperlink{import-auto-id2972079}{link}.) In other cases,
 we use reference frames that are not stationary but are in motion
 relative to the Earth. To describe the position of a person in an
 airplane, for example, we use the airplane, not the Earth, as the
@@ -588,8 +539,8 @@ Flickr)}\label{import-auto-id1778274}
 \hypertarget{fs-id1545372}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-1}{%
-\subsection{Learning Objectives}\label{learning-objectives-1}}
+\hypertarget{learning-objectives}{%
+\subsection{Learning Objectives}\label{learning-objectives}}
 
 By the end of this section, you will be able to:
 
@@ -852,8 +803,8 @@ Flickr)}\label{import-auto-id1690049}
 \hypertarget{fs-id1037368}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-2}{%
-\subsection{Learning Objectives}\label{learning-objectives-2}}
+\hypertarget{learning-objectives-1}{%
+\subsection{Learning Objectives}\label{learning-objectives-1}}
 
 By the end of this section, you will be able to:
 
@@ -1478,8 +1429,8 @@ Flickr)}\label{import-auto-id3514068}
 \hypertarget{fs-id1271912}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-3}{%
-\subsection{Learning Objectives}\label{learning-objectives-3}}
+\hypertarget{learning-objectives-2}{%
+\subsection{Learning Objectives}\label{learning-objectives-2}}
 
 By the end of this section, you will be able to:
 
@@ -2553,8 +2504,8 @@ Flickr)}\label{import-auto-id1489960}
 \hypertarget{fs-id1547877}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-4}{%
-\subsection{Learning Objectives}\label{learning-objectives-4}}
+\hypertarget{learning-objectives-3}{%
+\subsection{Learning Objectives}\label{learning-objectives-3}}
 
 By the end of this section, you will be able to:
 
@@ -3867,8 +3818,8 @@ Flickr)}\label{import-auto-id1788945}
 \hypertarget{fs-id2494789}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-5}{%
-\subsection{Learning Objectives}\label{learning-objectives-5}}
+\hypertarget{learning-objectives-4}{%
+\subsection{Learning Objectives}\label{learning-objectives-4}}
 
 By the end of this section, you will be able to:
 
@@ -4106,8 +4057,8 @@ What is the last thing you should do when solving a problem? Explain.
 \hypertarget{fs-id3275688}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-6}{%
-\subsection{Learning Objectives}\label{learning-objectives-6}}
+\hypertarget{learning-objectives-5}{%
+\subsection{Learning Objectives}\label{learning-objectives-5}}
 
 By the end of this section, you will be able to:
 
@@ -5068,8 +5019,8 @@ acceleration of an object as a result of gravity
 \hypertarget{fs-id1367279}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-7}{%
-\subsection{Learning Objectives}\label{learning-objectives-7}}
+\hypertarget{learning-objectives-6}{%
+\subsection{Learning Objectives}\label{learning-objectives-6}}
 
 By the end of this section, you will be able to:
 
@@ -5840,8 +5791,8 @@ displacement, distance, velocity, speed, and acceleration.
 \hypertarget{fs-id1263980}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-8}{%
-\subsection{Learning Objectives}\label{learning-objectives-8}}
+\hypertarget{learning-objectives-7}{%
+\subsection{Learning Objectives}\label{learning-objectives-7}}
 
 By the end of this section, you will be able to:
 
@@ -6235,8 +6186,8 @@ represent quantities with both magnitude and direction
 \hypertarget{fs-id2265665}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-9}{%
-\subsection{Learning Objectives}\label{learning-objectives-9}}
+\hypertarget{learning-objectives-8}{%
+\subsection{Learning Objectives}\label{learning-objectives-8}}
 
 By the end of this section, you will be able to:
 
@@ -7137,8 +7088,8 @@ arrow
 \hypertarget{fs-id1468448}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-10}{%
-\subsection{Learning Objectives}\label{learning-objectives-10}}
+\hypertarget{learning-objectives-9}{%
+\subsection{Learning Objectives}\label{learning-objectives-9}}
 
 By the end of this section, you will be able to:
 
@@ -7919,8 +7870,8 @@ vector using the Pythagorean theorem and trigonometric identities
 \hypertarget{fs-id1563341}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-11}{%
-\subsection{Learning Objectives}\label{learning-objectives-11}}
+\hypertarget{learning-objectives-10}{%
+\subsection{Learning Objectives}\label{learning-objectives-10}}
 
 By the end of this section, you will be able to:
 
@@ -9149,8 +9100,8 @@ the path of a projectile through the air
 \hypertarget{fs-id1524943}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-12}{%
-\subsection{Learning Objectives}\label{learning-objectives-12}}
+\hypertarget{learning-objectives-11}{%
+\subsection{Learning Objectives}\label{learning-objectives-11}}
 
 By the end of this section, you will be able to:
 
@@ -10398,8 +10349,8 @@ objects. The objects are treated as having no internal structure.
 \hypertarget{fs-id2243190}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-13}{%
-\subsection{Learning Objectives}\label{learning-objectives-13}}
+\hypertarget{learning-objectives-12}{%
+\subsection{Learning Objectives}\label{learning-objectives-12}}
 
 By the end of this section, you will be able to:
 
@@ -10761,8 +10712,8 @@ standard force
 \hypertarget{fs-id2242465}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-14}{%
-\subsection{Learning Objectives}\label{learning-objectives-14}}
+\hypertarget{learning-objectives-13}{%
+\subsection{Learning Objectives}\label{learning-objectives-13}}
 
 By the end of this section, you will be able to:
 
@@ -10961,8 +10912,8 @@ acted on by a net external force; also known as the law of inertia
 \hypertarget{fs-id1899128}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-15}{%
-\subsection{Learning Objectives}\label{learning-objectives-15}}
+\hypertarget{learning-objectives-14}{%
+\subsection{Learning Objectives}\label{learning-objectives-14}}
 
 By the end of this section, you will be able to:
 
@@ -11922,8 +11873,8 @@ acceleration due to gravity
 \hypertarget{fs-id2242736}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-16}{%
-\subsection{Learning Objectives}\label{learning-objectives-16}}
+\hypertarget{learning-objectives-15}{%
+\subsection{Learning Objectives}\label{learning-objectives-15}}
 
 By the end of this section, you will be able to:
 
@@ -12647,8 +12598,8 @@ thrust reaction force
 \hypertarget{fs-id1904445}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-17}{%
-\subsection{Learning Objectives}\label{learning-objectives-17}}
+\hypertarget{learning-objectives-16}{%
+\subsection{Learning Objectives}\label{learning-objectives-16}}
 
 By the end of this section, you will be able to:
 
@@ -13748,8 +13699,8 @@ called a tension force
 \hypertarget{fs-id1795639}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-18}{%
-\subsection{Learning Objectives}\label{learning-objectives-18}}
+\hypertarget{learning-objectives-17}{%
+\subsection{Learning Objectives}\label{learning-objectives-17}}
 
 By the end of this section, you will be able to:
 
@@ -14339,8 +14290,8 @@ this section.)
 \hypertarget{fs-id2160702}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-19}{%
-\subsection{Learning Objectives}\label{learning-objectives-19}}
+\hypertarget{learning-objectives-18}{%
+\subsection{Learning Objectives}\label{learning-objectives-18}}
 
 By the end of this section, you will be able to:
 
@@ -15278,8 +15229,8 @@ is unreasonable, or which premises are inconsistent?
 \hypertarget{fs-id1910513}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-20}{%
-\subsection{Learning Objectives}\label{learning-objectives-20}}
+\hypertarget{learning-objectives-19}{%
+\subsection{Learning Objectives}\label{learning-objectives-19}}
 
 By the end of this section, you will be able to:
 
@@ -15999,8 +15950,8 @@ electric forces. These forces include tension, friction, normal, spring
 \hypertarget{import-auto-id0000001}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-21}{%
-\subsection{Learning Objectives}\label{learning-objectives-21}}
+\hypertarget{learning-objectives-20}{%
+\subsection{Learning Objectives}\label{learning-objectives-20}}
 
 By the end of this section, you will be able to:
 
@@ -16946,8 +16897,8 @@ kinetic friction
 \hypertarget{import-auto-id0000029}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-22}{%
-\subsection{Learning Objectives}\label{learning-objectives-22}}
+\hypertarget{learning-objectives-21}{%
+\subsection{Learning Objectives}\label{learning-objectives-21}}
 
 By the end of this section, you will be able to:
 
@@ -17523,8 +17474,8 @@ velocity
 \hypertarget{import-auto-id0000032}{}
 \begin{learning-objectives}
 
-\hypertarget{learning-objectives-23}{%
-\subsection{Learning Objectives}\label{learning-objectives-23}}
+\hypertarget{learning-objectives-22}{%
+\subsection{Learning Objectives}\label{learning-objectives-22}}
 
 By the end of this section, you will be able to:
 
