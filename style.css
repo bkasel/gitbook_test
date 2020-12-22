@@ -17,3 +17,36 @@ pre code {
   color: red;
   text-underline-position: bottom;
 }
+
+
+
+[data-type="note"]{
+  border-style: solid;
+  padding:1em;
+  margin-top:1em;
+  border-radius: 1em;
+}
+
+[data-type="exercise"]{
+  padding: 1em;
+  background-color: steelblue;
+}
+[data-type="solution"]{
+  background-color: red;
+  padding: 2em;
+  display:none;
+}
+
+[data-type="example"]{
+  background-color: lightseagreen;
+  padding:2em;
+}
+/*
+[data-type="example"]>[data-type="title"]{
+  background-color: lightblue;
+}
+
+[data-type="example"]>.tinysection {
+  background-color: yellow;
+}
+*/

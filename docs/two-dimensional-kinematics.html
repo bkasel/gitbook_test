@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Kapitel 3 Two-Dimensional Kinematics | Kinematik und Dynamik</title>
   <meta name="description" content="Kapitel 3 Two-Dimensional Kinematics | Kinematik und Dynamik Kurs der ursprünglich von der Openstax auf Englisch entwickelt wurde Wolfe et al. (2015)." />
-  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Kapitel 3 Two-Dimensional Kinematics | Kinematik und Dynamik" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Kasel Ben" />
 
 
-<meta name="date" content="2020-07-06" />
+<meta name="date" content="2020-12-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,7 @@
   
 <link rel="prev" href="kinematik.html"/>
 <link rel="next" href="dynamics-force-and-newtons-laws-of-motion.html"/>
-<script src="libs/header-attrs-2.2/header-attrs.js"></script>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -67,7 +67,7 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">A Minimal Book Example</a></li>
+<li><a href="./">Kinematik und Dynamik</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Vorwort</a></li>
@@ -4039,6 +4039,25 @@ measure the same phenomenon
 
 </div>
 </div>
+<script>
+  var sollist = document.querySelectorAll("[data-type=\"solution\"]")
+
+for (var i = 0; i< sollist.length; i++ ) {
+function hideAnswer(buttonObject){
+	var x = buttonObject.nextSibling;
+	if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+var elem = sollist[i]; 
+var button = document.createElement("BUTTON");
+button.appendChild(document.createTextNode("Show me!"));
+button.setAttribute("onclick", "hideAnswer(this)");
+elem.parentElement.insertBefore( button, elem);
+}
+</script>
             </section>
 
           </div>

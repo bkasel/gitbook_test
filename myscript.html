@@ -1,0 +1,19 @@
+<script>
+  var sollist = document.querySelectorAll("[data-type=\"solution\"]")
+
+for (var i = 0; i< sollist.length; i++ ) {
+function hideAnswer(buttonObject){
+	var x = buttonObject.nextSibling;
+	if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+var elem = sollist[i]; 
+var button = document.createElement("BUTTON");
+button.appendChild(document.createTextNode("Show me!"));
+button.setAttribute("onclick", "hideAnswer(this)");
+elem.parentElement.insertBefore( button, elem);
+}
+</script>
