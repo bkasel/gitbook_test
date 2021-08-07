@@ -1,0 +1,14 @@
+name: Test action
+
+on: issues
+
+jobs:
+  test_action:
+    runs-on: self-hosted
+    permissions:
+      issues: none
+      pull-requests: none
+    steps:
+    - uses: actions/checkout@v2
+    - name: Test first script
+      run: echo Hello, world!
