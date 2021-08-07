@@ -1,13 +1,11 @@
 name: Test action
 
-on: issues
+on:
+  push: master
 
 jobs:
-  test_action:
+  testaction:
     runs-on: self-hosted
-    permissions:
-      issues: none
-      pull-requests: none
     steps:
     - uses: actions/checkout@v2
     - name: Test first script
