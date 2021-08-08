@@ -31,9 +31,9 @@ jobs:
       - name: update gh-pages branch
         run: |
           mv docs tmp
-          git switch gh-pages
+          git checkout gh-pages .
           rm -R docs
           mv tmp docs
+          git add docs/*
           git commit -m "This commit comes from my bot"
           echo ${{secrets.GITHUB_TOKEN}} >token.txt
-          sleep 10m
