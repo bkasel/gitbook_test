@@ -35,4 +35,4 @@ jobs:
           mv tmp docs
           git add docs/*
           git commit -m "This commit comes from my bot"
-          echo ${{secrets.GITHUB_TOKEN}} >token.txt
+          git push https://{{$GITHUB_ACTOR}}:{{$GITHUB_TOKEN}}@github.com/{{$GITHUB_REPOSITORY}}
