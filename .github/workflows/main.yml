@@ -32,8 +32,6 @@ jobs:
         run: |
           mv docs tmp
           git checkout gh-pages
-#          git checkout gh-pages .
-#          rm -R docs
           mv tmp docs
           git add docs/*
           git commit -m "This commit comes from my bot"
