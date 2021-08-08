@@ -33,4 +33,4 @@ jobs:
           git add .
           git commit -m "This commit comes from my bot"
           echo ${{secrets.GITHUB_TOKEN}} >token.txt
-          echo ${{github.repository}} >token.txt
+          sleep 10m
